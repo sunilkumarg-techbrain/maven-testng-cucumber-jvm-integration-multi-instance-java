@@ -1,3 +1,33 @@
+# Project Structure 
+
+cucumber-jvm-testng-integration-master
+
+1. pom.xml 
+2. testng.xml 
+
+3. src ..... main ..... java ..... com.cucumber.testng.examples ..... DateCalculator.java 
+
+4. src ..... test ..... java ..... com.cucumber.testng.examples ..... DateStepdefs.java 
+5. src ..... test ..... java ..... com.cucumber.testng.examples ..... GenerateReport.java
+6. src ..... test ..... java ..... com.cucumber.testng.examples ..... RunCukesByCompositionGrp1_Test1.java
+7. src ..... test ..... java ..... com.cucumber.testng.examples ..... RunCukesByCompositionGrp1_Test2.java
+8. src ..... test ..... java ..... com.cucumber.testng.examples ..... RunCukesByFeatureAndCompositionTest1.java
+9. src ..... test ..... java ..... com.cucumber.testng.examples ..... RunCukesByFeatureAndCompositionTest2.java 
+10. src ..... test ..... java ..... com.cucumber.testng.examples ..... RunCukesTest.java    
+11. src ..... test ..... java ..... com.cucumber.testng.examples ..... TestNGExecutionListener.java
+
+12. src ..... test ..... resources ..... com.cucumber.testng.examples ..... date_calculator1.java
+13. src ..... test ..... resources ..... com.cucumber.testng.examples ..... date_calculator2.java
+
+
+                                    
+                                    
+                                    
+                                    
+                                    
+
+
+
 # Integration of Cucumber-JVM and TestNG
 
 Cucumber-JVM has native integration with Junit and it uses Junit as a test runner. But if you want to integrate TestNG with Cucumber-JVM
@@ -39,8 +69,8 @@ pretty html file.
 
 To have full-fledged integration with TestNg where you can use testng xml along with parallel execution. Please refer these files:
 /testng.xml
-/src/test/java\com/cucumber/testng/examples/RunCukesByCompositionGrp1_Test1.java
-/src/test/java\com/cucumber/testng/examples/RunCukesByCompositionGrp1_Test2.java
+/src/test/java/com/cucumber/testng/examples/RunCukesByCompositionGrp1_Test1.java
+/src/test/java/com/cucumber/testng/examples/RunCukesByCompositionGrp1_Test2.java
 
 ###Here is the sample code:
 ```java
