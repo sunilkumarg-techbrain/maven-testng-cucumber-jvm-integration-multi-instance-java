@@ -16,8 +16,8 @@ cucumber-jvm-testng-integration-master
 10. src ..... test ..... java ..... com.cucumber.testng.examples ..... RunCukesTest.java    
 11. src ..... test ..... java ..... com.cucumber.testng.examples ..... TestNGExecutionListener.java
 
-12. src ..... test ..... resources ..... com.cucumber.testng.examples ..... date_calculator1.java
-13. src ..... test ..... resources ..... com.cucumber.testng.examples ..... date_calculator2.java
+12. src ..... test ..... resources ..... com.cucumber.testng.examples ..... date_calculator1.feature
+13. src ..... test ..... resources ..... com.cucumber.testng.examples ..... date_calculator2.feature
 
 
                                     
